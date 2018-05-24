@@ -38,7 +38,7 @@ public class ListCursorAdapter extends CursorRecyclerViewAdapter<ListCursorAdapt
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = LayoutInflater.from(parent.getContext())
-                .inflate(R.layout.card_info, parent, false);
+                .inflate(R.layout.card_item, parent, false);
         ViewHolder viewHolder = new ViewHolder(view);
         return viewHolder;
     }
