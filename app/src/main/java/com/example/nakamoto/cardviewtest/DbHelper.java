@@ -13,13 +13,13 @@ public class DbHelper extends SQLiteOpenHelper {
     public static final int DB_VERSION = 1;
     public static final String DB_NAME = "test.db";
 
-    // Create Aqua Table
+    // Create Table
     public static final String SQL_CREATE_TEST =
             "CREATE TABLE " + TEST_TABLE + " (" +
                     _testID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                     NAME_COLUMN + " TEXT NOT NULL " + " )";
 
-    // SQL Delete Aqua
+    // SQL Delete
     public static final String SQL_DELETE_TEST =
             "DROP TABLE IF EXISTS " + TEST_TABLE;
 
