@@ -47,7 +47,6 @@ public class ListCursorAdapter extends CursorRecyclerViewAdapter<ListCursorAdapt
     public void onBindViewHolder(final ViewHolder viewHolder, Cursor cursor) {
 
         /* Set Layout Animations on Change */
-        viewHolder.cardViewParent.getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
         viewHolder.constraintLayout.getLayoutTransition().enableTransitionType(LayoutTransition.CHANGING);
 
         /* Collapse/Expand Info */
